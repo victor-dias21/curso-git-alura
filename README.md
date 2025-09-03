@@ -52,7 +52,7 @@ O projeto simula um fluxo de trabalho real com versionamento de código, colabor
    ```
 2. Navegue até a pasta do projeto:
    ```
-   cd docker
+   cd curso-git-alura
    ```
 3. Construa a imagem Docker:
    ```
@@ -64,7 +64,7 @@ O projeto simula um fluxo de trabalho real com versionamento de código, colabor
    ```
 5. Acesse no navegador:
    ```
-   [cd docker](http://localhost)
+   [http://localhost](http://localhost)
    ```
 
 
