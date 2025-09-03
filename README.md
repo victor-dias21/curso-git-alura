@@ -31,18 +31,9 @@ O projeto simula um fluxo de trabalho real com versionamento de código, colabor
 - **Pull Requests:** Proposta de alterações e revisão de código.
 - **Forks e clones:** Como contribuir em projetos de terceiros.
 
-## Principais Comandos Git Aprendidos
-
-- `git init` — Inicializa um novo repositório Git.
-- `git clone` — Clona um repositório remoto.
-- `git status` — Exibe o estado atual do repositório.
-- `git add` — Adiciona arquivos à área de stage.
-- `git commit` — Salva alterações no histórico do repositório.
-- `git push` — Envia alterações para o repositório remoto.
-- `git pull` — Atualiza o repositório local com as alterações remotas.
-- `git branch` — Gerencia branches.
-- `git merge` — Mescla branches.
-- `git log` — Visualiza o histórico de commits.
+## Biblioteca ResponsiveVoice
+O ResponsiveVoice é uma biblioteca baseada em HTML5 que possibilita a leitura de textos em voz alta diretamente no navegador, sem a necessidade de arquivos de áudio pré-gravados.
+<script src="https://gist.github.com/victor-dias21/78a10f9ed9d0463b6cfb1087c88fcc3e.js"></script>
 
 ## Como Executar
 
