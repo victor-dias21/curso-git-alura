@@ -17,7 +17,7 @@ https://alura.com.br/course/git-github-compartilhando-colaborando-projetos
 // Código omitido. 
 
 
-Este projeto foi desenvolvido como parte do curso [Git e GitHub: compartilhando e colaborando em projetos](https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos) da Alura. O objetivo é praticar os principais conceitos e comandos do Git, além de aprender como colaborar em projetos utilizando o GitHub.
+Este projeto foi desenvolvido como parte do curso [Git e GitHub: compartilhando e colaborando em projetos](https://alura.com.br/course/git-github-compartilhando-colaborando-projetos) da Alura. O objetivo é praticar os principais conceitos e comandos do Git, além de aprender como colaborar em projetos utilizando o GitHub.
 
 ## Sobre o Projeto
 
