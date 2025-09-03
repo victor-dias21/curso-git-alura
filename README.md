@@ -1,4 +1,4 @@
-# Projeto do Curso Git e GitHub: Compartilhando e Colaborando em Projetos (Alura)
+v# Projeto do Curso Git e GitHub: Compartilhando e Colaborando em Projetos (Alura)
 https://alura.com.br/course/git-github-compartilhando-colaborando-projetos
 
 <h1>Jogo do número secreto</h1>
@@ -33,7 +33,8 @@ O projeto simula um fluxo de trabalho real com versionamento de código, colabor
 
 ## Biblioteca ResponsiveVoice
 O ResponsiveVoice é uma biblioteca baseada em HTML5 que possibilita a leitura de textos em voz alta diretamente no navegador, sem a necessidade de arquivos de áudio pré-gravados.
-<script src="https://gist.github.com/victor-dias21/78a10f9ed9d0463b6cfb1087c88fcc3e.js"></script>
+[![Gist do app.js](https://gist.github.com/victor-dias21/78a10f9ed9d0463b6cfb1087c88fcc3e.png)](https://gist.github.com/victor-dias21/78a10f9ed9d0463b6cfb1087c88fcc3e)
+
 
 ## Como Executar
 
