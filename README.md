@@ -1,11 +1,11 @@
-# Projeto do Curso Git e GitHub: Compartilhando e Colaborando em Projetos (Alura)
+v# Projeto do Curso Git e GitHub: Compartilhando e Colaborando em Projetos (Alura)
 https://alura.com.br/course/git-github-compartilhando-colaborando-projetos
 
 <h1>Jogo do número secreto</h1>
 
 <h2> Sobre</h2>
-<p>Projeto utilizado nos cursos de lógica de programação da Alura.</p>
-
+<p>Projeto utilizado no Curso Git e GitHub: Compartilhando e Colaborando em Projetos da Alura.</p>
+<p>PS* utilizei alguns conceitos de Docker para relembrar um aprendizado recente</p>
 ## Tecnologias
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
@@ -14,10 +14,10 @@ https://alura.com.br/course/git-github-compartilhando-colaborando-projetos
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 </div>
 
-// Código omitido. 
 
 
-Este projeto foi desenvolvido como parte do curso [Git e GitHub: compartilhando e colaborando em projetos](https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos) da Alura. O objetivo é praticar os principais conceitos e comandos do Git, além de aprender como colaborar em projetos utilizando o GitHub.
+
+Este projeto foi desenvolvido como parte do curso [Git e GitHub: compartilhando e colaborando em projetos](https://alura.com.br/course/git-github-compartilhando-colaborando-projetos) da Alura. O objetivo é praticar os principais conceitos e comandos do Git, além de aprender como colaborar em projetos utilizando o GitHub.
 
 ## Sobre o Projeto
 
@@ -31,18 +31,20 @@ O projeto simula um fluxo de trabalho real com versionamento de código, colabor
 - **Pull Requests:** Proposta de alterações e revisão de código.
 - **Forks e clones:** Como contribuir em projetos de terceiros.
 
-## Principais Comandos Git Aprendidos
+## Biblioteca ResponsiveVoice
+O ResponsiveVoice é uma biblioteca baseada em HTML5 que possibilita a leitura de textos em voz alta diretamente no navegador, sem a necessidade de arquivos de áudio pré-gravados.
 
-- `git init` — Inicializa um novo repositório Git.
-- `git clone` — Clona um repositório remoto.
-- `git status` — Exibe o estado atual do repositório.
-- `git add` — Adiciona arquivos à área de stage.
-- `git commit` — Salva alterações no histórico do repositório.
-- `git push` — Envia alterações para o repositório remoto.
-- `git pull` — Atualiza o repositório local com as alterações remotas.
-- `git branch` — Gerencia branches.
-- `git merge` — Mescla branches.
-- `git log` — Visualiza o histórico de commits.
+### app.js
+
+```javascript
+responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
+```
+
+### index.html
+
+```html
+<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+```
 
 ## Como Executar
 
@@ -52,9 +54,21 @@ O projeto simula um fluxo de trabalho real com versionamento de código, colabor
    ```
 2. Navegue até a pasta do projeto:
    ```
-   cd docker
+   cd curso-git-alura
    ```
-3. Siga as instruções dos arquivos do projeto para praticar os comandos.
+3. Construa a imagem Docker:
+   ```
+   docker build -t meu-site .
+   ```
+4. Execute o container:
+   ```
+   docker run -d -p 80:80 --name site meu-site
+   ```
+5. Acesse no navegador:
+   ```
+   [http://localhost](http://localhost)
+   ```
+
 
 ---
 
