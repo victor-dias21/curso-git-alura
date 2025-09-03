@@ -14,7 +14,7 @@ https://alura.com.br/course/git-github-compartilhando-colaborando-projetos
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 </div>
 
-// Código omitido. 
+
 
 
 Este projeto foi desenvolvido como parte do curso [Git e GitHub: compartilhando e colaborando em projetos](https://alura.com.br/course/git-github-compartilhando-colaborando-projetos) da Alura. O objetivo é praticar os principais conceitos e comandos do Git, além de aprender como colaborar em projetos utilizando o GitHub.
