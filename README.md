@@ -33,8 +33,14 @@ O projeto simula um fluxo de trabalho real com versionamento de código, colabor
 
 ## Biblioteca ResponsiveVoice
 O ResponsiveVoice é uma biblioteca baseada em HTML5 que possibilita a leitura de textos em voz alta diretamente no navegador, sem a necessidade de arquivos de áudio pré-gravados.
-[![Gist do app.js](https://gist.github.com/victor-dias21/78a10f9ed9d0463b6cfb1087c88fcc3e.png)](https://gist.github.com/victor-dias21/78a10f9ed9d0463b6cfb1087c88fcc3e)
-
+###[app.js]([https://github.com/victor-dias21/curso-git-alura/blob/main/index.html](https://github.com/victor-dias21/curso-git-alura/blob/main/app.js))
+```javascript
+responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
+```
+###[index.html](https://github.com/victor-dias21/curso-git-alura/blob/main/index.html)
+```html
+<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+```
 
 ## Como Executar
 
