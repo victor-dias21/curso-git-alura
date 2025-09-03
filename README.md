@@ -4,8 +4,8 @@ https://alura.com.br/course/git-github-compartilhando-colaborando-projetos
 <h1>Jogo do número secreto</h1>
 
 <h2> Sobre</h2>
-<p>Projeto utilizado nos cursos de lógica de programação da Alura.</p>
-
+<p>Projeto utilizado no Curso Git e GitHub: Compartilhando e Colaborando em Projetos da Alura.</p>
+<p>PS* utilizei alguns conceitos de Docker para relembrar um aprendizado recente</p>
 ## Tecnologias
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
@@ -54,7 +54,19 @@ O projeto simula um fluxo de trabalho real com versionamento de código, colabor
    ```
    cd docker
    ```
-3. Siga as instruções dos arquivos do projeto para praticar os comandos.
+3. Construa a imagem Docker:
+   ```
+   docker build -t meu-site .
+   ```
+4. Execute o container:
+   ```
+   docker run -d -p 80:80 --name site meu-site
+   ```
+5. Acesse no navegador:
+   ```
+   [cd docker](http://localhost)
+   ```
+
 
 ---
 
